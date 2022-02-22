@@ -1,0 +1,40 @@
+@charset "utf-8";
+.work{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+}
+.work{
+    padding: 10px;
+}
+.wrap{
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.wrap div{
+width: 300px;
+height: 300px;
+text-align: center;
+background: rgb(17, 92, 255);
+color: rgb(250, 247, 245);
+margin-bottom: 24px;
+}
+.wrap2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.wrap2 div{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 24px;
+    background: red;
+    color: white;
+}
